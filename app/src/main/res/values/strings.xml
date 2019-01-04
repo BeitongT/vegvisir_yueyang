@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Vegvisir</string>
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="add_user">Add User</string>
+    <string name="enter_user_identifier">Enter User Identifier</string>
+    <string name="enter_user_location">Enter User Location</string>
+    <string name="enter_user_password">Enter User Password</string>
+    <string name="revoke_user">Revoke User</string>
+    <string name="add_block">Add Block</string>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="create_block">Create Block</string>
+    <string name="enter_content">Enter Content</string>
+    <string name="enter_comment">Enter Comment</string>
+    <string name="merge_in_progress">Merge In Progress</string>
+    <string name="user_is_not_active">User Is Not Active</string>
+    <string name="successfully_added_block">Successfully Add Block</string>
+    <string name="successfully_revoked_user_certificate">Successfully Revoked User Certificate</string>
+    <string name="admin_certificate_cannot_be_revoked">Admin Certificate Cannot Be Revoked</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="incorrect_credentials">Incorrect Credentials</string>
+    <string name="enter_things">Enter things</string>
+    <string name="Add">Add</string>
+    <string name="Remove">Remove</string>
+    <string name="Confirm">Confirm</string>
+    <string name="choose_action">Please choose the action</string>
+    <string name="empty"></string>
+
+    <string name="user_id">UserID:</string>
+    <string name="timestamp">Timestamp:</string>
+    <string name="location">Location:</string>
+    <string name="parent_hashes">Parent Hashes:</string>
+    <string name="signature">Signature:</string>
+    <string name="transactions">Transactions:</string>
+    <string name="crypto_hash">Cryptographic Hash:</string>
+
+    <string name="view_blockchain">View Blockchain</string>
+    <string name="view_record_requests">View Record Requests</string>
+    <string name="view_user_certificates">View User Certificates</string>
+
+    <string name="request_records">Request Records</string>
+    <string name="view_records">View Records</string>
+
+    <string name="enter_record_id">Enter Record ID</string>
+    <string name="add_record_id">Add Record ID</string>
+
+    <string name="requesting_records_now">Requesting Records</string>
+    <string name="added_record_id_to_request">Add Record Id To Request</string>
+    <string name="no_such_record_with_provided_id_on_this_device">No Such Record With The Provided Id On This Device</string>
+    <string name="record_id_must_by_a_number">Record Id Must Be A Number</string>
+    <string name="previously_requested_record_with_provided_id">Previously Requested A Record With The Provided Id</string>
+</resources>

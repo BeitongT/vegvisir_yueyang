@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.cornell.em577.tamperprooflogging">
+
+    <!-- Required for Nearby Connections -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <activity android:name=".presentation.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".presentation.UserPanelActivity"/>
+        <activity android:name=".presentation.BlockChainBrowserActivity"/>
+        <activity android:name=".presentation.ViewBlockActivity"/>
+        <activity android:name=".presentation.ViewRecordRequestActivity"/>
+        <activity android:name=".presentation.ViewUserCertificateActivity"/>
+        <activity android:name=".presentation.RevokeUserActivity"/>
+        <activity android:name=".presentation.AddBlockActivity"/>
+        <activity android:name=".presentation.AddUserActivity"/>
+        <activity android:name=".presentation.RequestRecordsActivity"/>
+        <activity android:name=".presentation.ViewRecordsActivity"/>
+        <activity android:name=".presentation.ViewRecordByIdActivity"/>
+        <activity android:name=".presentation.ThingsActivity"/>
+        <activity android:name=".presentation.ThingsBrowserActivity"/>
+
+
+    </application>
+</manifest>
