@@ -21,5 +21,4 @@ Do not upgrade gradle if notified.
 Password is admin when first time log in. 
 
 here is a blurry video to show how to use it
-https://www.youtube.com/embed/Q0jIE7kHlDY
-
+https://youtu.be/AXby69T8KP4
