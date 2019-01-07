@@ -20,5 +20,9 @@ Now we have two strategies to add blocks:
 Do not upgrade gradle if notified.
 Password is admin when first time log in. 
 
-here is a blurry video to show how to use it
+here is a video to show how to use it
+google drive：
+https://drive.google.com/file/d/1SAofNu7Yf1k3iSfad34ggvk3ssCbA-_o/view?usp=sharing
+youtube（may be blurry）
 https://youtu.be/AXby69T8KP4
+
